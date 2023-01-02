@@ -1,3 +1,84 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+@layer base {
+  /* for testing */
+  /* html {
+    font-family: "ABC Gravity Normal"; 
+  } */
+
+  /* ABC Diatype mono */
+  @font-face {
+    font-family: "ABC Diatype Mono Regular";
+    src: url("/fonts/ABC\ Diatype\ Mono\ Edu\ Web/ABCDiatypeMonoEdu-Regular.woff")
+        format("woff"),
+      url("/fonts/ABC\ Diatype\ Mono\ Edu\ Web/ABCDiatypeMonoEdu-Regular.woff2")
+        format("woff2");
+  }
+  @font-face {
+    font-family: "ABC Diatype Mono Bold";
+    src: url("/fonts/ABC\ Diatype\ Mono\ Edu\ Web/ABCDiatypeMonoEdu-Bold.woff")
+        format("woff"),
+      url("/fonts/ABC\ Diatype\ Mono\ Edu\ Web/ABCDiatypeMonoEdu-Bold.woff2")
+        format("woff2");
+  }
+  @font-face {
+    font-family: "ABC Diatype Mono Medium";
+    src: url("/fonts/ABC\ Diatype\ Mono\ Edu\ Web/ABCDiatypeMonoEdu-Medium.woff")
+        format("woff"),
+      url("/fonts/ABC\ Diatype\ Mono\ Edu\ Web/ABCDiatypeMonoEdu-Medium.woff2")
+        format("woff2");
+  }
+  @font-face {
+    font-family: "ABC Diatype Mono Light";
+    src: url("/fonts/ABC\ Diatype\ Mono\ Edu\ Web/ABCDiatypeMonoEdu-Light.woff")
+        format("woff"),
+      url("/fonts/ABC\ Diatype\ Mono\ Edu\ Web/ABCDiatypeMonoEdu-Light.woff2")
+        format("woff2");
+  }
+  @font-face {
+    font-family: "ABC Diatype Mono Thin";
+    src: url("/fonts/ABC\ Diatype\ Mono\ Edu\ Web/ABCDiatypeMonoEdu-Thin.woff")
+        format("woff"),
+      url("/fonts/ABC\ Diatype\ Mono\ Edu\ Web/ABCDiatypeMonoEdu-Thin.woff2")
+        format("woff2");
+  }
+
+  /* ABC Gravity */
+  @font-face {
+    font-family: "ABC Gravity Normal";
+    src: url("/fonts/ABC\ Gravity\ Edu\ Web/ABCGravityEdu-Normal.woff")
+        format("woff"),
+      url("/fonts/ABC\ Gravity\ Edu\ Web/ABCGravityEdu-Normal.woff2")
+        format("woff2");
+  }
+  @font-face {
+    font-family: "ABC Gravity Wide";
+    src: url("/fonts/ABC\ Gravity\ Edu\ Web/ABCGravityEdu-Wide.woff")
+        format("woff"),
+      url("/fonts/ABC\ Gravity\ Edu\ Web/ABCGravityEdu-Wide.woff2")
+        format("woff2");
+  }
+  @font-face {
+    font-family: "ABC Gravity Extended";
+    src: url("/fonts/ABC\ Gravity\ Edu\ Web/ABCGravityEdu-Extended.woff")
+        format("woff"),
+      url("/fonts/ABC\ Gravity\ Edu\ Web/ABCGravityEdu-Extended.woff2")
+        format("woff2");
+  }
+  @font-face {
+    font-family: "ABC Gravity Expanded";
+    src: url("/fonts/ABC\ Gravity\ Edu\ Web/ABCGravityEdu-Expanded.woff")
+        format("woff"),
+      url("/fonts/ABC\ Gravity\ Edu\ Web/ABCGravityEdu-Expanded.woff2")
+        format("woff2");
+  }
+  @font-face {
+    font-family: "ABC Gravity Condensed";
+    src: url("/fonts/ABC\ Gravity\ Edu\ Web/ABCGravityEdu-Condensed.woff")
+        format("woff"),
+      url("/fonts/ABC\ Gravity\ Edu\ Web/ABCGravityEdu-Condensed.woff2")
+        format("woff2");
+  }
+}

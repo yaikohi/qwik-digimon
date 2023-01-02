@@ -3,7 +3,7 @@ import Header from "../components/header/header";
 
 export default component$(() => {
   return (
-    <div class="md:max-w-5xl max-w-xl mx-auto">
+    <div class="md:max-w-5xl max-w-xl mx-auto font-diatype-condensed">
       <main>
         <Header />
         <section>
