@@ -3,7 +3,7 @@ import Header from "../components/header/header";
 
 export default component$(() => {
   return (
-    <>
+    <div class="md:max-w-5xl max-w-xl mx-auto">
       <main>
         <Header />
         <section>
@@ -15,6 +15,6 @@ export default component$(() => {
           {/* Made with ♡ by Erik! */} footer
         </a>
       </footer>
-    </>
+    </div>
   );
 });

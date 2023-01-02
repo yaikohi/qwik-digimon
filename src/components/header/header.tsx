@@ -17,12 +17,21 @@ export default component$(() => {
         </li>
         <li class="m-2">
           <a
-            class="px-4 py-2 bg-slate-300 hover:bg-slate-100 rounded-xl"
-            href="/about"
+            class="font-bold hover:bg-slate-500 px-4 py-2 bg-slate-900 text-white rounded-xl"
+            href="/blog"
           >
-            about
+            /blog
           </a>
         </li>
+        <li class="m-2">
+          <a
+            class="font-bold hover:bg-slate-500 px-4 py-2 bg-slate-900 text-white rounded-xl"
+            href="/about"
+          >
+            /about
+          </a>
+        </li>
+        
       </ul>
     </header>
   );
