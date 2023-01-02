@@ -12,7 +12,7 @@ export default component$(() => {
             class="font-bold hover:bg-slate-500 px-4 py-2 bg-slate-900 text-white rounded-xl"
             href="/"
           >
-            /
+            &rarr; /
           </a>
         </li>
         <li class="m-2">
@@ -20,7 +20,15 @@ export default component$(() => {
             class="font-bold hover:bg-slate-500 px-4 py-2 bg-slate-900 text-white rounded-xl"
             href="/blog"
           >
-            /blog
+            &rarr; /blog
+          </a>
+        </li>
+        <li class="m-2">
+          <a
+            class="font-bold hover:bg-slate-500 px-4 py-2 bg-slate-900 text-white rounded-xl"
+            href="/digimon"
+          >
+            &rarr; /digimon
           </a>
         </li>
         <li class="m-2">
@@ -28,10 +36,9 @@ export default component$(() => {
             class="font-bold hover:bg-slate-500 px-4 py-2 bg-slate-900 text-white rounded-xl"
             href="/about"
           >
-            /about
+            &rarr; /about
           </a>
         </li>
-        
       </ul>
     </header>
   );

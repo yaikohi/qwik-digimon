@@ -12,7 +12,7 @@ export default component$(() => {
       </main>
       <footer>
         <a class="italic" href="https://ykhi.monster/" target="_blank">
-          {/* Made with ♡ by Erik! */} footer
+          {/* Made with ♡ by Erik! */} 
         </a>
       </footer>
     </div>
