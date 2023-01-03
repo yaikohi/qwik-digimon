@@ -15,14 +15,14 @@ export default component$(() => {
             &rarr; /
           </a>
         </li>
-        {/* <li class="m-2">
+        <li class="m-2">
           <a
             class="font-bold hover:bg-slate-500 px-4 py-2 bg-slate-900 text-white rounded-xl"
             href="/blog"
           >
             &rarr; /blog
           </a>
-        </li> */}
+        </li>
         <li class="m-2">
           <a
             class="font-bold hover:bg-slate-500 px-4 py-2 bg-slate-900 text-white rounded-xl"
@@ -31,14 +31,14 @@ export default component$(() => {
             &rarr; /digimon
           </a>
         </li>
-        {/* <li class="m-2">
+        <li class="m-2">
           <a
             class="font-bold hover:bg-slate-500 px-4 py-2 bg-slate-900 text-white rounded-xl"
             href="/about"
           >
             &rarr; /about
           </a>
-        </li> */}
+        </li>
       </ul>
     </header>
   );
