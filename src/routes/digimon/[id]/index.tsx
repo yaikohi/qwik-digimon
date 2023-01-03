@@ -35,6 +35,9 @@ export default component$(() => {
           </div>
         )}
         onResolved={(digimon) => {
+          /**
+           * Needs better error handling lol some digimons have no descriptions at all.
+           */
           const jpDescription =
             digimon.descriptions.length &&
             digimon.descriptions.filter((desc) => desc.language === "jap")[0];
