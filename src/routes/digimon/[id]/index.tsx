@@ -2,12 +2,6 @@ import { component$, Resource } from "@builder.io/qwik";
 import { RequestHandler, useEndpoint } from "@builder.io/qwik-city";
 import { Digimon } from "~/types/digimon";
 
-// interface DigimonPage {
-//   id: number;
-//   name: string;
-//   href: string;
-// }
-
 export const onGet: RequestHandler<Digimon> = async ({ params }) => {
   const digimonId = params.id;
   const url = `https://digimon-api.com/api/v1/digimon/${digimonId}`;
